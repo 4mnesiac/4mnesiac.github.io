@@ -1,0 +1,24 @@
+.footer__nav-menu {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 1.708em;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+  }
+  @media (min-width : 768px) and (max-width : 1023px) {
+    .footer__nav-menu {
+      font-size: 1rem;
+      line-height: 1.688em;
+    }
+  }
+  @media (max-width : 767px) {
+    .footer__nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 1.5rem;
+      line-height: 1.708em;
+    }
+  }

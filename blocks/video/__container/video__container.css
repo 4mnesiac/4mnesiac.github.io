@@ -1,0 +1,23 @@
+.video__container {
+    display: flex;
+    padding-top: 72px;
+    justify-content: center;
+    width: 82.2222%;
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .video__container {
+      width: calc(100% - 24px*2);
+    }
+}
+@media (min-width : 426px) and (max-width : 767px) {
+    .video__container {
+      flex-direction: column;
+      width: calc(100% - 16px*2); 
+    }
+}
+@media (max-width : 425px) {
+    .video__container {
+      flex-direction: column;
+      width: calc(100% - 16px*2); 
+    }
+    }

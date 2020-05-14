@@ -1,0 +1,6 @@
+@import url('./place/place.css');
+@import url('../link/link.css');
+
+.places {
+    padding-top: 20px;
+}

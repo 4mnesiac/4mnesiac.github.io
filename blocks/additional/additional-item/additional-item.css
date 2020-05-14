@@ -1,0 +1,30 @@
+@import url('./_bg-theme/_cherepovets/additional__item-bg_theme_cherepovets.css');
+@import url('./_bg-theme/_nikola/additional__item-bg_theme_nikola.css');
+@import url('./_bg-theme/_nvrssk/additional__item-bg_theme_nvrssk.css');
+@import url('./_bg-theme/_shickan/additional__item-bg_theme_shickan.css');
+
+.additional-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 330px;
+    position: relative;
+    border-radius: 5px;
+    z-index: 0;
+  }
+
+  .additional-item::before {
+    content: '';
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color .7s ease;
+    background-color:rgba(0, 0, 0, .5);
+    z-index: -1;
+    }
+    .additional-item:hover::before {
+    background-color:rgba(0, 0, 0, .8);
+    }

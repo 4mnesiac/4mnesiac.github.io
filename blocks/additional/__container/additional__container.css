@@ -1,0 +1,7 @@
+.additional__container {
+    display:grid;
+    grid-template-columns: repeat(4, 284px);
+    margin:0 auto;
+    grid-gap: 16px;
+    padding-top: 72px;
+  }

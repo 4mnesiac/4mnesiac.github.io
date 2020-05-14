@@ -1,0 +1,6 @@
+.video-item_bg-theme_observatory {
+    background-image: url('../../../../../images/observatory.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

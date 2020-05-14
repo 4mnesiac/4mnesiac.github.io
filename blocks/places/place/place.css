@@ -1,0 +1,103 @@
+@import url('./__image/place__image.css');
+@import url('./__title/place__title.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
+@import url('./__website/place__website.css');
+@import url('./__paragraph/place__paragraph.css');
+
+
+.place {
+    margin: 0;
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 1fr 1.04fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 40px;
+    padding-top: 72px;
+  }
+
+@media (min-width : 769px) and (max-width : 1024px) {
+  /* стили для планшета */
+ .place {
+  max-width: calc(100% - 48px*2);
+  grid-column-gap: 32px;
+  grid-row-gap: 40px;
+ }
+ .place__paragraph {
+   margin-bottom: 24px;
+ }
+}
+@media (min-width : 649px) and (max-width : 768px) {
+  /* стили для широкого смартфона */
+  .place {
+    padding-top: 82px;
+    
+    grid-column-gap: 28px;
+    grid-row-gap: 40px;
+    max-width: calc(100% - 24px*2);
+  }
+  .place__paragraph {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    padding-right: 20%;
+  }
+  .place__descriptions {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+@media (max-width : 648px) {
+  /* стили для среднего смартфона */
+  .place {
+    padding-top: 48px;
+    max-width: 100%;
+    grid-row-gap: 32px;
+    grid-template-columns: 1fr;
+  }
+  .place__website {
+    display: none;
+  }
+  .place__descriptions {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .place__title {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .place__paragraph {
+    margin-bottom: 24px;
+  }
+  .places {
+    padding-top:16px;
+  }
+}
+@media (min-width : 1600px) {
+  .place__paragraph {
+    font-size: 2rem;
+    line-height: 1.7;
+  }
+  .place {
+    padding-top: 264px;
+    max-width: 90%;
+  }
+  .place__url-heading {
+    font-size: 1rem;
+  }
+  .place__url {
+    font-size: 1.5rem;
+    }
+  .place__title {
+    font-size: 6.5rem;
+  }
+}
