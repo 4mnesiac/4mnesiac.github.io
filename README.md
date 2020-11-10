@@ -1,5 +1,5 @@
 # Проект "Путешествия по России"
-[Ссылка на проект](https://4mnesiac.github.io/Travel_in_russia/)
+### [Ссылка на gh-pages](https://4mnesiac.github.io/Travel_in_russia/)
 
 ## Описание
 
